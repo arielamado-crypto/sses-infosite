@@ -93,6 +93,7 @@
   $("#newsGrid").innerHTML = NEWS.length
     ? NEWS.map((n) => `
       <article class="news-card reveal">
+        ${n.image ? `<img class="news-img" src="${esc(n.image)}" alt="${esc(n.title)}" loading="lazy">` : ""}
         <span class="news-date">${esc(fmt(n.date))}</span>
         <h3>${esc(n.title)}</h3>
         <p>${esc(n.text)}</p>
