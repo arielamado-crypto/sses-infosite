@@ -40,7 +40,7 @@ const PEOPLE = [
   },
   { name: "ARIEL L. AMADO", position: "Master Teacher I",   role: "teacher", photo: "images/teachers/Amado.jpg", message: "Computer/Research Teacher" },
   { name: "LEGAYA G. SANTIAGO", position: "Master Teacher I",         role: "teacher", photo: "images/teachers/Santiago.jpg", message: "Grade 1 Adviser" },
-  { name: "LESLIE BERIA", position: "Teacher I",          role: "teacher", photo: "images/teachers/Beria.jpg", message: "Grade 2 Adviser" },
+  { name: "LESLIE KAYE S. BERIA", position: "Teacher II",          role: "teacher", photo: "images/teachers/Beria.jpg", message: "Grade 2 Adviser" },
   { name: "IVY G. AGUILAR", position: "Teacher III",          role: "teacher", photo: "images/teachers/Aguilar.jpg", message: "Grade 3 Adviser" },
   { name: "VELIA G. AMBITO", position: "Master Teacher I",          role: "teacher", photo: "images/teachers/Ambito.jpg", message: "Grade 4 Adviser" },
   { name: "MARIEL B. PANES", position: "Teacher III",          role: "teacher", photo: "images/teachers/Panes.jpg", message: "Grade 5 Adviser" },
