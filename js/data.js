@@ -57,7 +57,7 @@ const NEWS = [
     text: "Stay updated with school news, announcements, and events through this site."
   },
   {
-    date: "2026-10-9-10",
+    date: "2026-10-9,10",
     title: "SSES Foundation Day",
     text: "Celebrating the 3rd SSES Foundation Day"
   },
