@@ -57,9 +57,9 @@ const NEWS = [
     text: "Stay updated with school news, announcements, and events through this site."
   },
   {
-    date: "2026-10-9,10",
-    title: "SSES Foundation Day",
-    text: "Celebrating the 3rd SSES Foundation Day"
+    date: "October 9–10, 2026",
+    title: "SSES Foundation Celebration",
+    text: "Celebrating the 3rd SSES Foundating Anniversary"
   },
   {
     date: "2026-10-01",
