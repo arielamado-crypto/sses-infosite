@@ -32,7 +32,7 @@ const SCHOOL = {
    role: "principal" gets a special gold badge.                                 */
 const PEOPLE = [
   {
-    name: "[ZENAFE C. CATON, EdD]",
+    name: "ZENAFE C. CATON, EdD",
     position: "Principal II",
     role: "principal",
     photo: "images/teachers/Caton.jpg",
