@@ -17,10 +17,10 @@ const SCHOOL = {
   region: "Region VI – Western Visayas",
   division: "Schools Division of Iloilo",
   district: "Schools District of Estancia",
-  email: "school-email@deped.gov.ph",          // TODO: replace
+  email: "116349@deped.gov.ph",          // TODO: replace
   phone: "(033) 000-0000",                     // TODO: replace
   facebook: "https://www.facebook.com/",       // TODO: replace with the school's Facebook page
-  schoolId: "000000",                          // TODO: replace with DepEd School ID
+  schoolId: "116349",                          // TODO: replace with DepEd School ID
   mapQuery: "Estancia Central Elementary School, Estancia, Iloilo",
   welcome:
     "Special Science Elementary School (SSES) of Estancia Central Elementary School nurtures young learners with a strong foundation in Science, Mathematics, and Research. We aim to develop curious, creative, and responsible Filipino children who love learning and serve their community.",
