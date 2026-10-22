@@ -197,3 +197,6 @@ a { color: var(--navy); }
   html { scroll-behavior: auto; }
   .car-track, .reveal { transition: none; }
 }
+/* News photos */
+.news-card { overflow: hidden; }
+.news-img { width: calc(100% + 52px); max-width: none; margin: -26px -26px 6px; aspect-ratio: 16 / 9; object-fit: cover; }
