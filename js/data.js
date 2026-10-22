@@ -72,5 +72,5 @@ const NEWS = [
    Put photos in images/gallery/ then list them here:
    { photo: "images/gallery/sciencefair.jpg", caption: "Science Fair 2026" },   */
 const GALLERY = [
-   { photo: "images/gallery/SSES back.png", caption: "SSES Wallpaper HD" },
+   { photo: "images/gallery/ssesback.png", caption: "SSES Wallpaper HD" },
 ];
