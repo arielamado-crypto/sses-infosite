@@ -46,7 +46,7 @@ const PEOPLE = [
   { name: "MARIEL B. PANES", position: "Teacher III",          role: "teacher", photo: "images/teachers/Panes.jpg", message: "Grade 5 Adviser" },
   { name: "ROY JOHN A. MONTANIEL", position: "Master Teacher I",        role: "teacher", photo: "images/teachers/Montaniel.jpg", message: "Grade 6 Adviser" },
   { name: "MA. VICTORIA M. BUARON", position: "Master Teacher II",          role: "teacher", photo: "images/teachers/Buaron.jpg", message: "English/Research Teacher" },
-  { name: "WELTER P. PAGAYONAN", position: "Master Teacher I",        role: "teacher", photo: "images/teachers/Pagayonan.jpg", message: "AP/EPP Teacher" }
+  { name: "WELTER P. PAGAYONAN", position: "Master Teacher I",        role: "teacher", photo: "images/teachers/weltz1.png", message: "AP/EPP Teacher" }
 ];
 
 /* ---------- NEWS & ANNOUNCEMENTS (newest first) ---------- */
