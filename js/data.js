@@ -59,7 +59,7 @@ const NEWS = [
   {
     date: "October 9–10, 2026",
     title: "SSES Foundation Celebration",
-    text: "Celebrating the 3rd SSES Foundating Anniversary"
+    text: "Celebrating the 3rd SSES Founding Anniversary"
   },
   {
     date: "2026-10-01",
