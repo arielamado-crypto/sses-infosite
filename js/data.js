@@ -57,9 +57,9 @@ const NEWS = [
     text: "Stay updated with school news, announcements, and events through this site."
   },
   {
-    date: "2026-10-15",
-    title: "[Sample] Science Fair Preparations",
-    text: "Replace this with a real announcement. Edit the NEWS list in js/data.js."
+    date: "2026-10-9-10",
+    title: "SSES Foundation Day",
+    text: "Celebrating the 3rd SSES Foundation Day"
   },
   {
     date: "2026-10-01",
