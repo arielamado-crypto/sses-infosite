@@ -19,7 +19,7 @@ const SCHOOL = {
   district: "Schools District of Estancia",
   email: "116349@deped.gov.ph",          // TODO: replace
   phone: "(033) 000-0000",                     // TODO: replace
-  facebook: "https://www.facebook.com/",       // TODO: replace with the school's Facebook page
+  facebook: "https://www.facebook.com/profile.php?id=61570621767240",       // TODO: replace with the school's Facebook page
   schoolId: "116349",                          // TODO: replace with DepEd School ID
   mapQuery: "Estancia Central Elementary School, Estancia, Iloilo",
   welcome:
