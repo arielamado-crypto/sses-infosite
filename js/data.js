@@ -35,7 +35,7 @@ const PEOPLE = [
     name: "ZENAFE C. CATON, EdD",
     position: "Principal II",
     role: "principal",
-    photo: "images/teachers/Caton.jpg",
+    photo: "images/teachers/Zen.png",
     message: "Welcome to Special Science Elementary School — where every child is guided to discover, question, and grow."
   },
   { name: "ARIEL L. AMADO", position: "Master Teacher I",   role: "teacher", photo: "images/teachers/Amado.png", message: "Computer/Research Teacher/Grade Head" },
