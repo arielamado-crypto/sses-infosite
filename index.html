@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Science Elementary School | Estancia, Iloilo</title>
+  <meta name="description" content="Official website of Special Science Elementary School (SSES), Estancia Central Elementary School, Estancia, Iloilo.">
+  <link rel="icon" type="image/png" href="images/logos/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Government strip ===== -->
+  <div class="gov-strip">
+    <div class="container">
+      Republic of the Philippines &nbsp;·&nbsp; Department of Education &nbsp;·&nbsp;
+      <span data-school="region"></span> &nbsp;·&nbsp; <span data-school="division"></span>
+    </div>
+  </div>
+
+  <!-- ===== Masthead ===== -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <img src="images/logos/district-logo.png" alt="Schools District of Estancia logo" class="mast-logo side">
+      <img src="images/logos/eces-logo.png" alt="Estancia Central Elementary School logo" class="mast-logo side">
+      <div class="mast-text">
+        <h1 data-school="name">Special Science Elementary School</h1>
+        <p><span data-school="parentSchool"></span> &nbsp;|&nbsp; <span data-school="address"></span></p>
+      </div>
+      <img src="images/logos/sses-logo.png" alt="Special Science Elementary School logo" class="mast-logo main">
+    </div>
+  </header>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <span class="nav-brand">SSES</span>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ===== HOME: Carousel ===== -->
+    <section id="home" class="hero">
+      <div class="container">
+        <p class="eyebrow light">Meet Our Educators</p>
+        <h2 class="hero-title">The people behind every young scientist</h2>
+
+        <div class="carousel" id="carousel" aria-roledescription="carousel">
+          <button class="car-btn prev" id="prevBtn" aria-label="Previous">&#8249;</button>
+          <div class="car-viewport">
+            <div class="car-track" id="carTrack"><!-- slides from js/data.js --></div>
+          </div>
+          <button class="car-btn next" id="nextBtn" aria-label="Next">&#8250;</button>
+        </div>
+        <div class="car-dots" id="carDots"></div>
+      </div>
+    </section>
+
+    <!-- ===== Welcome / Focus ===== -->
+    <section class="section welcome">
+      <div class="container welcome-grid">
+        <div>
+          <p class="eyebrow">Welcome</p>
+          <h2 class="section-title">Learning through curiosity and discovery</h2>
+          <p class="lead" data-school="welcome"></p>
+        </div>
+        <div class="focus-cards">
+          <div class="focus-card"><span class="focus-icon">🔬</span><div><h3>Science</h3><p>Hands-on inquiry and experiments that build scientific thinking.</p></div></div>
+          <div class="focus-card"><span class="focus-icon">➗</span><div><h3>Mathematics</h3><p>Strong number sense, reasoning, and problem solving.</p></div></div>
+          <div class="focus-card"><span class="focus-icon">📖</span><div><h3>Research &amp; Technology</h3><p>Early research skills and responsible use of technology.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section alt">
+      <div class="container">
+        <p class="eyebrow center">About Us</p>
+        <h2 class="section-title center">Vision, Mission &amp; Core Values</h2>
+
+        <div class="vm-grid">
+          <article class="vm-card">
+            <h3>DepEd Vision</h3>
+            <p>We dream of Filipinos who passionately love their country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation.</p>
+            <p>As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.</p>
+          </article>
+          <article class="vm-card">
+            <h3>DepEd Mission</h3>
+            <p>To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where:</p>
+            <ul>
+              <li><strong>Students</strong> learn in a child-friendly, gender-sensitive, safe, and motivating environment.</li>
+              <li><strong>Teachers</strong> facilitate learning and constantly nurture every learner.</li>
+              <li><strong>Administrators and staff</strong>, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen.</li>
+              <li><strong>Family, community, and other stakeholders</strong> are actively engaged and share responsibility for developing life-long learners.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="values">
+          <div class="value">Maka-Diyos</div>
+          <div class="value">Maka-tao</div>
+          <div class="value">Makakalikasan</div>
+          <div class="value">Makabansa</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Faculty ===== -->
+    <section id="faculty" class="section">
+      <div class="container">
+        <p class="eyebrow center">Our Faculty</p>
+        <h2 class="section-title center">Administration &amp; Teaching Staff</h2>
+        <div class="faculty-grid" id="facultyGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== News ===== -->
+    <section id="news" class="section alt">
+      <div class="container">
+        <p class="eyebrow center">Updates</p>
+        <h2 class="section-title center">News &amp; Announcements</h2>
+        <div class="news-grid" id="newsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== Gallery ===== -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <p class="eyebrow center">Gallery</p>
+        <h2 class="section-title center">School Life</h2>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title">Visit or reach us</h2>
+          <ul class="contact-list">
+            <li><span>📍</span><div><strong>Address</strong><br><span data-school="parentSchool"></span>, <span data-school="address"></span></div></li>
+            <li><span>✉️</span><div><strong>Email</strong><br><a data-school-link="email"></a></div></li>
+            <li><span>📞</span><div><strong>Phone</strong><br><span data-school="phone"></span></div></li>
+            <li><span>👍</span><div><strong>Facebook</strong><br><a data-school-link="facebook" target="_blank" rel="noopener">Visit our Facebook page</a></div></li>
+          </ul>
+        </div>
+        <div class="map-wrap">
+          <iframe id="mapFrame" title="School location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logos">
+        <img src="images/logos/district-logo.png" alt="District logo">
+        <img src="images/logos/eces-logo.png" alt="ECES logo">
+        <img src="images/logos/sses-logo.png" alt="SSES logo">
+      </div>
+      <p class="footer-name" data-school="name"></p>
+      <p><span data-school="parentSchool"></span> · <span data-school="district"></span> · <span data-school="division"></span></p>
+      <p class="small">&copy; <span id="year"></span> <span data-school="shortName"></span>. All rights reserved. &nbsp;|&nbsp; Website developed by <span data-school="developer"></span></p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">&#8593;</button>
+
+  <!-- Lightbox for gallery -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <img id="lbImg" alt="">
+    <p id="lbCap"></p>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
