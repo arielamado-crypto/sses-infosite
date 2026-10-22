@@ -73,4 +73,6 @@ const NEWS = [
    { photo: "images/gallery/sciencefair.jpg", caption: "Science Fair 2026" },   */
 const GALLERY = [
    { photo: "images/gallery/ssesback.png", caption: "SSES Wallpaper HD" },
+   { photo: "images/gallery/budol.png", caption: "SSES Foundation Day" },
+   { photo: "images/gallery/simam.png", caption: "SSES with Mam Legaya" },
 ];
