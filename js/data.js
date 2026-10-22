@@ -38,7 +38,7 @@ const PEOPLE = [
     photo: "images/teachers/Caton.jpg",
     message: "Welcome to Special Science Elementary School — where every child is guided to discover, question, and grow."
   },
-  { name: "ARIEL L. AMADO", position: "Master Teacher I",   role: "teacher", photo: "images/teachers/Amado.jpg", message: "Computer/Research Teacher" },
+  { name: "ARIEL L. AMADO", position: "Master Teacher I",   role: "teacher", photo: "images/teachers/Amado.png", message: "Computer/Research Teacher" },
   { name: "LEGAYA G. SANTIAGO", position: "Master Teacher I",         role: "teacher", photo: "images/teachers/Santiago.jpg", message: "Grade 1 Adviser" },
   { name: "LESLIE KAYE S. BERIA", position: "Teacher II",          role: "teacher", photo: "images/teachers/Beria.jpg", message: "Grade 2 Adviser" },
   { name: "IVY G. AGUILAR", position: "Teacher III",          role: "teacher", photo: "images/teachers/Aguilar.jpg", message: "Grade 3 Adviser" },
