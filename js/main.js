@@ -52,10 +52,27 @@
 
   let index = 0, timer = null;
   const DELAY = 5000;
-  function go(i) {
-    index = (i + PEOPLE.length) % PEOPLE.length;
-    track.style.transform = `translateX(-${index * 100}%)`;
+    function go(i) {
+    const next = (i + PEOPLE.length) % PEOPLE.length;
+    const jump = Math.abs(next - index) > 1;   // last → first, or a far dot
+    index = next;
     dots.forEach((d, n) => d.classList.toggle("active", n === index));
+
+    if (jump) {
+      // Fade out, switch slide, fade in
+      track.style.transition = "opacity .45s ease";
+      track.style.opacity = 0;
+      setTimeout(() => {
+        track.style.transition = "none";
+        track.style.transform = `translateX(-${index * 100}%)`;
+        void track.offsetWidth;               // apply the jump instantly
+        track.style.transition = "opacity .45s ease";
+        track.style.opacity = 1;
+        setTimeout(() => (track.style.transition = ""), 500);
+      }, 450);
+    } else {
+      track.style.transform = `translateX(-${index * 100}%)`;
+    }
   }
   function play() { stop(); timer = setInterval(() => go(index + 1), DELAY); }
   function stop() { clearInterval(timer); }
