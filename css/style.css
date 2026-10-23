@@ -200,3 +200,9 @@ a { color: var(--navy); }
 /* News photos */
 .news-card { overflow: hidden; }
 .news-img { width: calc(100% + 52px); max-width: none; margin: -26px -26px 6px; aspect-ratio: 16 / 9; object-fit: cover; }
+
+/* Compact hero so the carousel fits below the header */
+.hero { padding: 28px 0 32px; }
+.hero-title { font-size: clamp(20px, 2.6vw, 28px); margin-bottom: 20px; }
+.slide-card { padding: 28px 40px; min-height: 300px; }
+.slide-photo { width: 220px; }
