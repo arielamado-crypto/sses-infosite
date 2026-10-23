@@ -72,7 +72,15 @@ const NEWS = [
    Put photos in images/gallery/ then list them here:
    { photo: "images/gallery/sciencefair.jpg", caption: "Science Fair 2026" },   */
 const GALLERY = [
-   { photo: "images/gallery/ssesback.png", caption: "SSES Wallpaper HD" },
-   { photo: "images/gallery/budol.jpg", caption: "Kainan na!!!SSES Foundation Day" },
-   { photo: "images/gallery/simam.jpg", caption: "SSES with Mam Legaya" },
+  { photo: "images/gallery/ssesback.png", caption: "SSES Wallpaper HD" },
+  { photo: "images/gallery/budol.jpg", caption: "Kainan na!!! SSES Foundation Day" },
+  { photo: "images/gallery/simam.jpg", caption: "SSES with Mam Legaya" },
 ];
+
+// SSES Foundation Day photos: f-01.jpg to f-40.jpg
+for (let i = 1; i <= 40; i++) {
+  GALLERY.push({
+    photo: "images/gallery/f-" + String(i).padStart(2, "0") + ".jpg",
+    caption: "SSES Foundation Day 2026"
+  });
+}
